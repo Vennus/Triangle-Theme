@@ -64,6 +64,36 @@ p {
   position: relative;
   height: 500px; }
 
+.slider-cloud2 {
+  position: absolute;
+  left: 16%;
+  top: 15%; }
+
+.slider-circle1 {
+  position: absolute;
+  bottom: 42%;
+  left: 29%; }
+
+.slider-circle2 {
+  position: absolute;
+  top: 45%;
+  left: 32%; }
+
+.slider-cloud1 {
+  position: absolute;
+  top: 33%;
+  left: 39%; }
+
+.slider-sun {
+  position: absolute;
+  top: 14%;
+  left: 60%; }
+
+.slider-cloud3 {
+  position: absolute;
+  top: 30%;
+  left: 84%; }
+
 .slider-house {
   position: absolute;
   bottom: 0;
@@ -72,7 +102,8 @@ p {
 .slider-cycle {
   position: absolute;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+  height: 15%; }
 
 .btn-common {
   font-size: 14px;
@@ -82,16 +113,56 @@ p {
   font-weight: 300;
   padding: 10px 25px; }
 
+#services {
+  padding: 3% 0; }
+  #services .padding {
+    padding: 7% 3%; }
+  #services .service-2 {
+    padding: 3.6% 3% 7%; }
+  #services .service-3 {
+    padding: 7.4% 3% 7.01%; }
+
+.vertical-center .container {
+  margin-right: 0; }
+
+#action {
+  background: url("../images/home/tour-bg.png");
+  width: 100%;
+  background-color: rgba(251, 247, 247, 0.78);
+  padding: 1%;
+  margin-bottom: 2%; }
+  #action .tour-button {
+    padding: 3% 0;
+    text-align: left; }
+  #action .fadeInRight {
+    background: url(../images/home/tour-icon2.png);
+    background-repeat: no-repeat;
+    background-size: 344%;
+    background-position: 169px; }
+
 #action .col-sm-5 {
   top: 0;
   height: 100%;
-  right: 0; }
+  right: 0;
+  padding: 2%;
+  margin: 0; }
 
 .btn-common:hover, .btn-common:focus {
   outline: none;
   background: none;
   box-shadow: none;
   color: #d29948; }
+
+#features {
+  margin: 5% 0; }
+  #features img {
+    width: 100%;
+    height: 80%; }
+  #features .single-features-2 {
+    padding-top: 4%; }
+
+#clients {
+  margin: 5% 0; }
 
 .align-right {
   text-align: right; }
@@ -122,8 +193,7 @@ p {
 **************************/
 #header {
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
-  background: #40F70F; }
+  padding: 30px 0 60px 0; }
   #header .navbar-inverse .container {
     position: relative; }
 
